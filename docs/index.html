@@ -34,13 +34,30 @@
 <script>window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js"><\/script>')</script>
 <script src="js/showdown.min.js"></script>
 <script type="text/javascript">
-    $("#markdown").load("README.md", function (response, status) {
-        if (status === "success") {
-            var converter = new showdown.Converter();
-            converter.setFlavor('github');
-            $("#markdown").html(converter.makeHtml(response));
-        }
-    });
+    var f = function (cnt) {
+        $("#markdown").load("README.md", function (response, status) {
+            if (status === "success") {
+                var converter = new showdown.Converter();
+                converter.setFlavor("github");
+                $("#markdown").html(converter.makeHtml(response));
+            } else if (++cnt <= 3) {
+                f(cnt);
+            } else {
+                $("#markdown").html("404! Please try again.");
+            }
+        })
+    };
+    f(0);
 </script>
+<script>
+    window.ga = function () {
+        ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-103574924-1', 'auto');
+    ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
 </html>
