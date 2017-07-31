@@ -1,11 +1,13 @@
 # MyRepositories
 
-Organize and collect some of _own_ **maintained** repositories:
+> Organize and collect some of own **maintained** repositories.
+
+## Repositories
 
 | Name | Description | Languages |
-| ---: | :----- | -----: |
+| -----: | :----- | -----: |
 |[go-commander](https://github.com/WindomZ/go-commander)|The solution for building command shell programs.|Golang|
-|[go-develop-kit](https://github.com/WindomZ/go-**develop-kit)|My development kits - Go packages|Golang|
+|[go-develop-kit](https://github.com/WindomZ/go-develop-kit)|My development kits - Go packages|Golang|
 |[swagger-merger](https://github.com/WindomZ/swagger-merger)|Merge multiple swagger files into a swagger file, support JSON/YAML.|javascript|
 |[leetcode.go](https://github.com/WindomZ/leetcode.go)|My LeetCode Problem's Solutions(Golang).|Golang|
 |[lazy-docker](https://github.com/WindomZ/lazy-docker)|Lazy configuration, out of the box, simple and quick to deploy docker container.|Shell|
@@ -27,3 +29,7 @@ Organize and collect some of _own_ **maintained** repositories:
 |[shmcache](https://github.com/WindomZ/shmcache)|A lightweight, abstract, scalable, out-of-the-box shared memory operation, makes use of the PHP Shared Memory Functions(shmop).|PHP|
 |[docker-lnmp](https://github.com/WindomZ/docker-lnmp)|Use Docker to quickly and easily deploy LNMP(Linux, Nginx, MySQL, PHP7).|Shell|
 |[disk-calc](https://github.com/WindomZ/disk-calc)|Hard disk calculation - Easy to calculate integer hard disk partition.|javascript|
+
+## Author
+
+[WindomZ](https://github.com/WindomZ)
