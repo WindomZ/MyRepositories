@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/WindomZ/my-repositories/issues"
   },
-  "homepage": "https://github.com/WindomZ/my-repositories#readme"
+  "homepage": "https://github.com/WindomZ/my-repositories#readme",
+  "dependencies": {
+    "atob": "^2.0.3",
+    "axios": "^0.16.2"
+  }
 }
