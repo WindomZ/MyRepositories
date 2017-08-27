@@ -1,3 +1,7 @@
-# my-repositories
+# my-github-repos
 
-Power by [my-repositories](https://github.com/WindomZ/my-repositories)
+> Developing...
+
+## License
+
+[MIT](https://github.com/WindomZ/my-github-repos/blob/master/LICENSE)

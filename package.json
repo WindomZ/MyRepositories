@@ -1,5 +1,5 @@
 {
-  "name": "my-repositories",
+  "name": "my-github-repos",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WindomZ/my-repositories.git"
+    "url": "git+https://github.com/WindomZ/my-github-repos.git"
   },
   "keywords": [
     "repositories"
@@ -19,9 +19,9 @@
   "author": "WindomZ",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WindomZ/my-repositories/issues"
+    "url": "https://github.com/WindomZ/my-github-repos/issues"
   },
-  "homepage": "https://github.com/WindomZ/my-repositories#readme",
+  "homepage": "https://github.com/WindomZ/my-github-repos#readme",
   "dependencies": {
     "atob": "^2.0.3",
     "axios": "^0.16.2"
